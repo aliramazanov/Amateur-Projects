@@ -13,29 +13,22 @@ body {
   background: white;
   padding: 1em;
 }
-
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
   color: black;
   font-size: 1.2em;
 }
-
 .navbar .logo span {
   color: var(--primary-color);
 }
-
 .navbar nav {
   display: none;
 }
-
 .navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
-
 .navbar .mobile-menu {
   cursor: pointer;
 }
@@ -64,13 +57,11 @@ section {
   color: grey;
   letter-spacing: 0.3em;
 }
-
 .left-col h1 {
   font-size: 2.5em;
   line-height: 1.3em;
   margin-top: 0.2em;
 }
-
 .left-col .button-cta {
   background: var(--primary-color);
   color: white;
@@ -81,12 +72,10 @@ section {
   font-weight: bold;
   display: inline-block;
 }
-
 .left-col .watch-video-cta {
   display: block;
   margin-top: 1em;
 }
-
 .left-col .watch-video-cta img {
   margin-right: 0.5em;
 }
@@ -104,19 +93,15 @@ section.features-section {
 ul.features-list {
   margin: 0;
   padding-left: 0.1em;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
-
 ul.features-list li {
   font-size: 1.1em;
   margin-bottom: 1em;
   margin-left: 2em;
   position: relative;
 }
-
 ul.features-list li:before {
   content: "";
   left: -2em;
@@ -136,7 +121,6 @@ ul.features-list li:before {
   background: var(--primary-color);
   color: white;
 }
-
 .testimonials-section li {
   background: #006bd6;
   text-align: center;
@@ -145,7 +129,6 @@ ul.features-list li:before {
   margin: 0 auto 5em auto;
   border-radius: 1em;
 }
-
 .testimonials-section li img {
   width: 5em;
   height: 5em;
@@ -171,11 +154,10 @@ textarea {
   margin-bottom: 1em;
   border-radius: 0.4em;
   border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type=submit] {
   background-color: var(--primary-color);
   color: white;
   font-weight: bold;
@@ -212,7 +194,6 @@ nav {
 ul.primary-nav {
   margin-top: 5em;
 }
-
 ul.primary-nav li a {
   color: black;
   text-decoration: none;
@@ -221,7 +202,6 @@ ul.primary-nav li a {
   font-size: 1.3em;
   text-align: right;
 }
-
 ul.primary-nav li a:hover {
   font-weight: bold;
 }
@@ -238,21 +218,13 @@ ul.primary-nav li a:hover {
     display: none;
   }
   .navbar .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
   }
   .navbar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -260,8 +232,6 @@ ul.primary-nav li a:hover {
     padding: 0;
   }
   .navbar nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .navbar nav a {
@@ -287,7 +257,6 @@ ul.primary-nav li a:hover {
     color: white;
   }
 }
-
 @media only screen and (min-width: 1080px) {
   .container {
     width: 1080px;
@@ -297,12 +266,8 @@ ul.primary-nav li a:hover {
     padding: 10em 4em;
   }
   .hero .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     text-align: left;
   }
   .hero .container .left-col {
@@ -317,8 +282,6 @@ ul.primary-nav li a:hover {
     margin-right: 8em;
   }
   .hero-cta {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .primary-nav {
@@ -346,8 +309,6 @@ ul.primary-nav li a:hover {
     bottom: -2em;
   }
   .testimonials-section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .testimonials-section ul li {
@@ -357,8 +318,6 @@ ul.primary-nav li a:hover {
     position: relative;
   }
   .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .contact-right {
@@ -373,7 +332,6 @@ ul.primary-nav li a:hover {
     height: 100%;
   }
 }
-
 @media only screen and (min-width: 1080px) and (min-width: 1450px) {
   .features-section:before {
     content: "";
@@ -393,5 +351,4 @@ ul.primary-nav li a:hover {
     left: 4.5em;
     top: 2em;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
